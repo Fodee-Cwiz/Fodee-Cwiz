@@ -1,0 +1,19 @@
+div.container {
+    display: flex;
+    justify-content: left;
+}
+
+div.block {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    background-color: #3498db;
+}
+
+div.block:nth-child(2) {
+    background-color: #e74c3c;
+}
+
+div.block:nth-child(3) {
+    background-color: #27ae60;
+}
