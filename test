@@ -19,3 +19,35 @@
 #                 for flag4 in range(1, 3):
 #                     if f(flag, f(flag1, f(flag2, f(flag3, f(flag4, x))))) == 7:
 #                         print(flag4, flag3, flag2, flag1, flag)
+
+
+# # третья задача по факту не необходимая но лучше разобрать
+# total_input = int(input())
+# index = 0
+# max_sevens = 0
+# min_num_with_max_sevens = float('inf')
+#
+# for i in range (1, total_input + 1):
+#     input_num = int(input())
+#     octal = oct(input_num) [2:] # Получаем восьмеричное представление числа, убирая "0o" в начале
+#     count_sevens = octal.count('7')
+#     if count_sevens > max_sevens or (count_sevens == max_sevens and input_num < min_num_with_max_sevens):
+#         max_sevens = count_sevens
+#         min_num_with_max_sevens = input_num
+#         index = i
+#
+# print(index)
+
+
+# # первая из сложных кстати в сборнике неправильно
+# totalInput = int(input())
+# sum = 0
+# count = 0
+# for i in range(totalInput):
+#     inputNum = int(input())
+#     sum += inputNum
+#     if (inputNum > 9 < 100) & (inputNum % 3 == 0):
+#         count += 1
+# avarage = sum / totalInput
+# print(avarage)
+
