@@ -1,0 +1,21 @@
+# # 1 из 5 с помощью кода
+# def f(flag, x):
+#     var = 0
+#     if flag == 1:
+#         if x < 10:
+#             var = 10
+#         if 9 < x < 100:
+#             var = 100
+#         return x + var
+#     if flag == 2:
+#         return x / 4
+#
+#
+# x = 8
+# for flag in range(1, 3):
+#     for flag1 in range(1, 3):
+#         for flag2 in range(1, 3):
+#             for flag3 in range(1, 3):
+#                 for flag4 in range(1, 3):
+#                     if f(flag, f(flag1, f(flag2, f(flag3, f(flag4, x))))) == 7:
+#                         print(flag4, flag3, flag2, flag1, flag)
