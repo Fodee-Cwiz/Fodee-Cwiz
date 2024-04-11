@@ -1,3 +1,17 @@
+num = int(input())
+max = 0
+first_n = 0
+third_n = 0
+while num != 0:
+    if (num > 99) and (num < 1000):
+        first_n = num // 100
+        third_n = num % 10
+        if (first_n > third_n) and (num > max):
+            max = num
+    num = int(input())
+print(max)
+
+
 # # 1 из 5 с помощью кода
 # def f(flag, x):
 #     var = 0
