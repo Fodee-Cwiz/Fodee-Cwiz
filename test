@@ -1,3 +1,111 @@
+total = int(input())
+sum = 0 # count, max, min (min = 1000000)
+# если в примере число дробное - sum = 0.0
+flag = 0 # (если надо вывести два значения)
+# если последовательность заканчивается 0 на этой строке - num = int(input())
+for i in range(total): # и вместо этого - while num != 0:
+    num = int(input())
+    if num % 3 == 0 and num % 10 == 5 or num % 2 == 1:
+    # если кратно 3 И заканчивается на 5 ИЛИ неченое (четное - num % 2 == 0)
+        # если макс или мин - if num > max: # num < min
+    sum = sum + num
+    # count = count + 1
+    # max (или min) = num
+    if num >= 40: # по условию
+        flag = flag + 1
+
+print(sum) # count, max, min
+# вывод среднего - print(sum / total)
+
+if flag >= 3: # по условию
+    print("YES")
+else:
+    print("NO")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 num = int(input())
 max = 0
 first_n = 0
