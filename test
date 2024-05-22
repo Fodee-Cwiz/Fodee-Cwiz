@@ -22,10 +22,15 @@ if flag >= 3: # по условию
 else:
     print("NO")
 
-
-
-
-
+sum = 0.0
+total = 0
+num = int(input())
+while num != 0:
+    if num >= 10:
+        sum = sum + num
+        total = total + 1
+    num = int(input())
+print(sum / total)
 
 
 
